@@ -82,24 +82,33 @@ header{
 
 .buildamazingthings{
 	width: 300px;
-	padding-left: 500px;
-	padding-top: 100px;
+	position: relative;
+	top: 100px;
+	left: 20%;
+	;
 }
 
 #orgs{
 	background-color: rgb(39, 53, 71);
 	height: 650px;
+	position: relative;
 }
 
 #orgs .img{
-	padding-left: 25%;
-	padding-top: 140px;
-	padding-right: 50px;
+	position: relative;
+	left: 20%;
+	top: 140px;
+	padding-right:5%;
 }
 
 #orgs article{
 	color: white;
-	padding-top: 140px;
+	display: inline-block;
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 20%;
+	width: 500px;
 }
 
 #whatisnpm{
@@ -109,7 +118,9 @@ header{
 }
 
 #whatisnpm article{
-	padding: 120px 500px;
+	position: relative;
+	left: 25%;
+	top: 120px;
 	width: 300px;
 }
 
